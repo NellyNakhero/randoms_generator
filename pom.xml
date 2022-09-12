@@ -12,7 +12,8 @@
 	<artifactId>randoms_generator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>randoms_generator</name>
-	<description>Our application will have the following scenarios :  Get random nations, Get random currencies, Get application version, health check</description>
+	<description>Our application will have the following scenarios :  Get random nations, Get random currencies,
+		Get application version, health check</description>
 	<properties>
 		<java.version>11</java.version>
 		<sonar.organization>nellynakhero</sonar.organization>
