@@ -76,4 +76,4 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
       #Analyze project with SonarCloud
       - name: Analyze with SonarCloud
-        run: mvn -B test
+        run: mvn -B verify
