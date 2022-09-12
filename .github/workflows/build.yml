@@ -76,4 +76,4 @@ jobs:
           restore-keys: ${{ runner.os }}-m2
       #Analyze project with SonarCloud
       - name: Analyze with SonarCloud
-        run: mvn -B verify sonar:sonar
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=NellyNakhero_randoms_generator
