@@ -12,7 +12,7 @@ import java.util.Locale;
 public class DataController {
     @GetMapping("/")
     public String healthCheck() {
-        return  "HEALTH CHECK";
+        return  "HEALTH CHECK OK!";
     }
 
     @GetMapping("/version")
