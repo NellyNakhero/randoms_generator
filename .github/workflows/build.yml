@@ -41,3 +41,10 @@ jobs:
       - name: Run Tests
         run: mvn -B test
      
+ #Sonar's Job
+  sonar:
+    #Depends on test's job
+    needs: tests
+    name: SonarCloud analysis
+    #Run on Ubuntu using the latest version
+    runs-on: ubuntu-latest
