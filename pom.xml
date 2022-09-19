@@ -26,6 +26,16 @@
 		</dependency>
 
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20180130</version>
+		</dependency>
+
+		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
@@ -41,6 +51,15 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>snapshots</id>
+			<name>randoms_generator-libs-snapshot</name>
+			<url>https://imalipayjfrogworkspace.jfrog.io/artifactory/randoms_generator-libs-snapshot</url>
+		</repository>
+	</distributionManagement>
+
 
 	<build>
 		<plugins>
