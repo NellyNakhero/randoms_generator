@@ -4,6 +4,7 @@ import lombok.Data;
 
 import java.util.ArrayList;
 
+
 @Data
 public class WebHookDetails {
     private String icon_emoji;
